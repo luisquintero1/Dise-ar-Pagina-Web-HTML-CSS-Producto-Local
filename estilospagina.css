@@ -1,0 +1,80 @@
+h1{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+header,section,footer,aside,nav,article,hgroup{
+	display: block;
+} 
+.agrupar{
+margin: 20px;
+border:1px solid black;
+width: 1270px;
+background-color: white;
+}
+.cabecera{
+background:#C7AC30;
+border: 1px solid #999999;
+padding: 20px; 
+}
+.menu{
+	background:#0AC7BE;
+	padding: 5px 15px;
+}
+.menu li{
+	list-style: none;
+	border:1px solid black;
+	padding: 5px;
+	font: bold 14px verdana;
+	display: inline-block;
+	color: white;
+}
+.seccion{
+	margin: 25px;/*espaciado interno*/
+	width: 850px;
+	float:left;
+}
+
+article{
+	padding: 10px;
+	background:#5FC6C7;
+	margin-bottom: 20px;
+	border:1px solid black;
+}
+article time{
+	color:#999;
+}
+article footer{
+	text-align: right;
+	padding: 15px;
+}
+
+.columna_lateral{
+    width: 300px;
+    float: left;
+    margin: 23px 0;
+}
+.colunma_lateral blockquote{
+    border:1px solid black;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 190px;
+    float: right;
+    display: block;
+    margin: 23px;
+    color: #C71CA8;
+  }
+
+.pie_final{
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	background:#C7AC30;
+	color: white;
+}
+
+img{
+	width: 220px;
+	display: block;
+	margin: auto;
+}
