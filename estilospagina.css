@@ -16,8 +16,7 @@ background-color: white;
 text-align: center;
 background:#E6AB5C;
 border: 1px solid #999999;
-padding: 20px; 
-
+padding: 7px;
 }
 .menu{
 	background:#A6DFFF;
@@ -25,7 +24,7 @@ padding: 20px;
 }
 .menu li{
 
-	list-style: none;
+	list-style:none;
 	border:1px solid black;
 	padding: 5px;
 	font: bold 14px verdana;
@@ -39,9 +38,10 @@ padding: 20px;
 }
 
 article{
-	padding: 10px;
+	font:14px verdana;
+	padding:10px;
 	background:#5AB4E6;
-	margin-bottom: 20px;
+	margin-bottom:20px;
 	border:1px solid black;
 }
 article time{
@@ -66,7 +66,7 @@ article footer{
     float: right;
     display: block;
     margin: 23px;
-    color: #99846A;
+    color: #945429;/*#945429  #99846A */
   }
 
 .pie_final{
@@ -81,4 +81,8 @@ img{
 	width: 220px;
 	display: block;
 	margin: auto;
+}
+.imagen{
+	width: 700px;
+	height: 100px;
 }
