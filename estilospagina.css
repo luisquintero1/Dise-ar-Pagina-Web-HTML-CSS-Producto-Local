@@ -13,21 +13,23 @@ width: 1270px;
 background-color: white;
 }
 .cabecera{
-background:#C7AC30;
+text-align: center;
+background:#E6AB5C;
 border: 1px solid #999999;
-padding: 20px; 
+padding: 7px;
 }
 .menu{
-	background:#0AC7BE;
+	background:#A6DFFF;
 	padding: 5px 15px;
 }
 .menu li{
-	list-style: none;
+
+	list-style:none;
 	border:1px solid black;
 	padding: 5px;
 	font: bold 14px verdana;
 	display: inline-block;
-	color: white;
+	color: #05334A;
 }
 .seccion{
 	margin: 25px;/*espaciado interno*/
@@ -36,9 +38,10 @@ padding: 20px;
 }
 
 article{
-	padding: 10px;
-	background:#5FC6C7;
-	margin-bottom: 20px;
+	font:14px verdana;
+	padding:10px;
+	background:#5AB4E6;
+	margin-bottom:20px;
 	border:1px solid black;
 }
 article time{
@@ -55,6 +58,7 @@ article footer{
     margin: 23px 0;
 }
 .colunma_lateral blockquote{
+	background-color: #FAFFFF;
     border:1px solid black;
     padding: 30px;
     margin-bottom: 30px;
@@ -62,14 +66,14 @@ article footer{
     float: right;
     display: block;
     margin: 23px;
-    color: #C71CA8;
+    color: #945429;/*#945429  #99846A */
   }
 
 .pie_final{
 	clear: both;
 	padding: 20px;
 	text-align: center;
-	background:#C7AC30;
+	background:#E6AB5C;
 	color: white;
 }
 
@@ -77,4 +81,8 @@ img{
 	width: 220px;
 	display: block;
 	margin: auto;
+}
+.imagen{
+	width: 700px;
+	height: 100px;
 }
